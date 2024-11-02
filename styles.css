@@ -1,0 +1,210 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff;
+}
+
+/* Header styling */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #394553, #98E7FE); 
+    padding: 10px;
+    color: white; 
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    margin: 0 10px;
+    color: black; 
+    text-decoration: none;
+    background-color: white; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.nav-bar a:hover {
+    background-color: #f0f0f0; 
+}
+
+/* Estilo para los botones de log in y sign in */
+
+.login-buttons button {
+    margin-left: 5px;
+    background-color: white; 
+    border: 2px solid black; 
+    color: black; 
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+/* Efecto hover para los botones */
+.login-buttons button:hover {
+    background-color: #f0f0f0; 
+}
+
+
+
+/* Main content styling */
+/* Cuerpo */
+.main-content {
+    background: linear-gradient(to left, #7F9AB9 , #394553); 
+    padding: 20px;
+}
+
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Estilo para la sección de la frase */
+.intro-subtitle {
+    background-color: white; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+}
+/* Estilo para los botones de contribuir y solicitar donación */
+.intro-buttons button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    margin: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.intro-buttons button:hover {
+    background-color: #f0f0f0; 
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Estilo para la sección "NOSOTROS" */
+
+.about {
+    background-color: white; 
+    padding: 0; 
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+}
+
+/* Estilo para el título "NOSOTROS" */
+.about h3 {
+    background-color: white; 
+    padding: 10px; 
+    margin: 0; 
+}
+
+/* Estilo para la descripción dentro del cuadro */
+.about-description {
+    background: linear-gradient(to right, #394553, #98E7FE); 
+    padding: 20px; 
+    border-radius: 0 0 5px 5px; 
+    color: white; 
+}
+
+/* Estilo para el texto de la descripción */
+.about-description p {
+    margin: 0; 
+}
+
+
+.about, .app, .contact {
+    margin-top: 20px;
+}
+
+/* Estilo para la sección "NUESTRA APP" */
+.app-container {
+    border: 2px solid #394553; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+}
+
+.app-container h3 {
+    background-color: #ffffff; 
+    padding: 10px; 
+    margin: 0; 
+}
+
+.app-container p {
+    background: linear-gradient(to right, #394553, #98E7FE); 
+    color: white; 
+    padding: 10px;
+    margin: 0; 
+}
+
+
+/* Sección de imágenes de la app */
+.app-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.app-image {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.large-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+/* Contact form styling */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1a73e8;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
